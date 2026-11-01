@@ -84,7 +84,7 @@ public class MainActivity extends Activity {
 
         CookieManager cm = CookieManager.getInstance();
         cm.setAcceptCookie(true);
-        cm.setAcceptThirdPartyCookie(web, true);
+        cm.setAcceptThirdPartyCookies(web, true);
 
         web.setWebViewClient(new WebViewClient() {
             @Override
